@@ -56,7 +56,7 @@ Onde:<br>
 ![image](https://user-images.githubusercontent.com/63505187/173400732-1ff8bb35-96f1-474d-a8b6-d4b3c7b03c0e.png)
 
 Exemplo da forma de Lagrange em uma interpolação para 3 pontos:<br>
-![image](https://user-images.githubusercontent.com/63505187/173400970-6c7bf42b-3c74-491a-8d9c-31bc3d3454d0.png)<br>
+![image](https://user-images.githubusercontent.com/63505187/173409472-46c1820e-f269-4e2d-b03c-4b22a48b9e76.png)<br>
 Onde:<br>
 ![image](https://user-images.githubusercontent.com/63505187/173401059-6d049dbc-f3d2-415f-bd82-86623f42434f.png)<br>
 
