@@ -1,7 +1,6 @@
 #### To-do
 * Implementar o código do método MMQ
 * Melhorar a representação gráfica da Dicotomia
-* Implementar o README de Lagrange
 * Implementar o README da Regra dos Trapézios
 
 # Métodos Numéricos Computacionais
@@ -33,3 +32,37 @@ Características da Dicotomia:
 * Possui baixa velocidade de convergência, mas a convergência é garantida.
 * É simples.
 * Possui alto custo computacional
+
+## Método da Forma de Lagrange
+Utilizamos a forma de Lagrange para encontrar um valor que não está tabelado, a partir de uma tabela, e sem ter informações sobre a função que gerou a tabela.
+
+Por exemplo:<br>
+Obtem-se uma tabela relacionando a temperatura em ºC (T) e o calor específico da água (C).
+| T | 20      | 25      | 30      | 35      | 40      | 45      |
+|---|---------|---------|---------|---------|---------|---------|
+| C | 0.99907 | 0.99852 | 0.99826 | 0.99818 | 0.99828 | 0.99849 |
+
+Torna-se necessário saber:
+* Qual a temperatura da água a 35.5ºC?
+* Qual temperatura corresponde ao calor específico de 0,99837?
+
+Para responder essas perguntar, iremos utilizar o método de interpolação polinomial de Lagrange:<br>
+![image](https://user-images.githubusercontent.com/63505187/173398817-b2e65e2b-25f9-4fbb-801c-fd1f887fc8eb.png)<br>
+![image](https://user-images.githubusercontent.com/63505187/173399175-49af69a8-3b99-4c87-bf9d-89d51b3851fa.png)
+
+Exemplo da forma de Lagrange em uma interpolação para 2 pontos:<br>
+![image](https://user-images.githubusercontent.com/63505187/173400169-717888bd-ac9a-4c0c-ad65-64085c532b97.png)<br>
+Onde:<br>
+![image](https://user-images.githubusercontent.com/63505187/173400732-1ff8bb35-96f1-474d-a8b6-d4b3c7b03c0e.png)
+
+Exemplo da forma de Lagrange em uma interpolação para 3 pontos:<br>
+![image](https://user-images.githubusercontent.com/63505187/173400970-6c7bf42b-3c74-491a-8d9c-31bc3d3454d0.png)<br>
+Onde:<br>
+![image](https://user-images.githubusercontent.com/63505187/173401059-6d049dbc-f3d2-415f-bd82-86623f42434f.png)<br>
+
+
+
+
+
+
+
