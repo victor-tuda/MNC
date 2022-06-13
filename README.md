@@ -1,7 +1,8 @@
 #### To-do
 * Implementar o código do método MMQ
 * Melhorar a representação gráfica da Dicotomia
-* Implementar o README da Regra dos Trapézios
+* Finalizar o README da Forma de Lagrange
+* Finalizar o README da Regra dos Trapézios
 
 # Métodos Numéricos Computacionais
 Repositório destinado a automatizar e representar gráficamente os seguintes métodos matemáticos:
@@ -46,7 +47,7 @@ Torna-se necessário saber:
 * Qual a temperatura da água a 35.5ºC?
 * Qual temperatura corresponde ao calor específico de 0,99837?
 
-Para responder essas perguntar, iremos utilizar o método de interpolação polinomial de Lagrange:<br>
+Para responder perguntas como essas, podemos utilizar o método de interpolação polinomial de Lagrange:<br>
 ![image](https://user-images.githubusercontent.com/63505187/173398817-b2e65e2b-25f9-4fbb-801c-fd1f887fc8eb.png)<br>
 ![image](https://user-images.githubusercontent.com/63505187/173399175-49af69a8-3b99-4c87-bf9d-89d51b3851fa.png)
 
@@ -59,6 +60,20 @@ Exemplo da forma de Lagrange em uma interpolação para 3 pontos:<br>
 ![image](https://user-images.githubusercontent.com/63505187/173409472-46c1820e-f269-4e2d-b03c-4b22a48b9e76.png)<br>
 Onde:<br>
 ![image](https://user-images.githubusercontent.com/63505187/173401059-6d049dbc-f3d2-415f-bd82-86623f42434f.png)<br>
+
+## Método da Regra dos Trapézios
+Utilizamos a regra dos trapézios para realizar o cálculo da área, de uma região limitada pelo gráfico de uma função f(x).
+
+![image](https://user-images.githubusercontent.com/63505187/173410845-b11faa45-f29f-49e0-9dd1-6229c3867f14.png)
+
+#### Integração numérica:
+A idéia básica da integração numérica é a substituição da função f(x) por um polinômio que a aproxime razoavelmente em um intervalo (a, b).<br>
+A integração numérica de uma função f(x) num intervalo (a, b) consiste em calcular a área delimitada por essa função, recorrendo à interpolação polinomial, como, forma de obtenção de um polinômio – p(x).
+
+![image](https://user-images.githubusercontent.com/63505187/173411766-c93a2b8e-da32-45c5-8d95-4288f7a5a155.png)
+
+
+
 
 
 
